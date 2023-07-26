@@ -1,0 +1,119 @@
+/* work sans font form google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/*shared style */
+
+
+header{
+    background-color: aliceblue;
+    padding: 20px 140px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+
+}
+.G{
+    color: #ff42a5;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;}
+    nav li  a{
+        text-decoration: none;
+        color: black;
+    }
+    nav img{
+        justify-items: center;
+       
+    }
+
+    .goat{
+        justify-content: space-between;
+        background-image: url(../Image/Group\ 14.png);
+        width: 901px;
+        text-align: center;
+
+flex-shrink: 0;
+display: flex;
+align-items: center;
+margin-:  auto;
+gap: 50px;
+justify-content: space-around;
+    }
+    .play{
+        justify-content: space-around;
+        font-weight: 500;
+        margin-left: 890px;
+    }
+   .h1-title{
+    color: rgba(249, 72, 178, 1);
+    font-weight: 800;
+   }
+   .play p{
+    color: #534C64;
+   }
+   .double-button{
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+    }
+
+   .sing-in{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    color: aliceblue;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   }
+   
+
+   .go-rogue{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+color: aliceblue;
+   }
+
+
+
+   .Our-purpose{
+    text-align: center;
+   }
+
+   .deep-purpose{
+    margin-top: 60px;
+    margin-right: 300px;
+    /* background-image: url(../Image/images.jpg) ; */
+   }
+  .purpose-title{
+    color: purple;
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .text-discription{
+    font-size: .8em;
+    font-weight: 400;
+    color: #534C64;
+  }
+   
+
+  .purpose-unleash{
+    font-size: 24px;
+    font-weight: 700;
+    color: #534C64;
+  }
